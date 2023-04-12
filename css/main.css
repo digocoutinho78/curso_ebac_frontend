@@ -118,3 +118,11 @@ section h2{
 #entret .articles article a{
     background-color: #1a63ff;
 }
+
+#tech {
+    background-color:  #d7cbf7 ;
+}
+
+#tech .articles article a{
+    background-color: #600577;
+}
