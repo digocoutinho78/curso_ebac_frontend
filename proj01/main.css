@@ -19,7 +19,7 @@ body, input, textarea{
 
 header {
     padding: 16px;
-    background-color: #182c61;
+    background-color: #838996;
     color: #ecf0f1;
 }
 
@@ -48,21 +48,16 @@ section .conteiner {
 
 }
 
-/*.brands-list img {
-   height: 24px;   
-}
-
-.brands-list li {
-    display: inline;
-    margin-right: 8px;
-}*/
-
 section .conteiner {
     align-items: flex-start;
 }
 
 .jedi {
     width: 480px;
+}
+
+.imgnews {
+    width: 300px;
 }
 
 .news-content {
@@ -89,7 +84,7 @@ section h3 {
 
 
 section{
-    color: #182c61;;
+    color: #4f5768;;
 }
 
 section p {
@@ -106,8 +101,12 @@ section img {
     margin-right: 32px;
 }
 
+section#secundarias h3 {
+    margin-top: 20px;
+    }
+
 .social-links img{
-    height: 24px;
+    height: 44px;
 }
 
 .social-links li{
@@ -118,10 +117,6 @@ section img {
 .social-links li a{
     text-decoration: none;
     }
-
-                section#secundarias h3 {
-                    margin-top: 50px;
-                }
 
 #contact .conteiner{
     display: block;
@@ -151,7 +146,7 @@ section h3{
 }
 
 form button{
-    background-color: #182c61;
+    background-color: #585c64;
     color: #fff; 
     border: none;
     cursor: pointer;  
@@ -163,11 +158,11 @@ form button:hover{
 }
 
 input:focus, textarea:focus{
-    outline-color: #182c61;
+    outline-color: #585c64;
 }
 
 footer{
-    background-color: #182c61;
+    background-color: #838996;
     color: #ecf0f1 ;
     padding: 16px 0;
 }
