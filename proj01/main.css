@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+
 header, 
 section h2, 
 section h3, 
@@ -12,9 +15,15 @@ form button{
 
 }
 
+body{
+background: rgb(255, 255, 255);
+background: linear-gradient(0deg, rgb(173, 182, 192) 30%, rgb(255, 255, 255) 100%);
+}
+
 body, input, textarea{
     font-family: 'Montserrat', sans-serif;
-        font-weight: normal;
+    font-weight: normal;
+    
 }
 
 header {
@@ -84,7 +93,7 @@ section h3 {
 
 
 section{
-    color: #4f5768;;
+    color: #28344d;;
 }
 
 section p {
@@ -138,7 +147,7 @@ form button {
 
 form textarea{
     resize: none;
-    height: 180px;
+    height: 100px;
 }
 
 section h3{
@@ -163,6 +172,6 @@ input:focus, textarea:focus{
 
 footer{
     background-color: #838996;
-    color: #ecf0f1 ;
+    color: #fefeff ;
     padding: 16px 0;
 }
